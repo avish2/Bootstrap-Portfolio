@@ -87,6 +87,11 @@ section#download.content-section.text-center{
 }
 }
 
-
+@media (min-width: 992px) {
+  .col-md-4 {
+    width: 30%;
+    padding-left: 35px;
+  }
+}
 
 
