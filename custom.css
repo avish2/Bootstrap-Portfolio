@@ -1,0 +1,92 @@
+header#bootover.intro {
+  display: table;
+  width: 100%;
+  height: auto;
+  padding: 150px 0;
+  text-align: center;
+  color: white;
+  background: url(img/header.jpg) no-repeat bottom center scroll;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+section#about.container.content-section.text-center{
+  padding-top: 150px;
+}
+
+h2.section-heading {
+  margin-top: 100px;
+}
+
+div.download-section {
+    width: 100%;
+  padding: 100px 0;
+  color: white;
+  background: url(img/dowloadresume.jpg) no-repeat center center scroll;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+h1.brand-heading {
+  margin:75px 0 35px;
+}
+div.container.content-section.text-center {
+  padding-top: 100px;
+}
+textarea#message.form-control {
+  height: 130px;
+}
+a.btn.btn-default.btn-lg {
+font-size:30px;
+}
+
+h4#portfoliotext {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+img.img-responsive {
+    max-width: 70%;
+  }
+
+div.portfolio-hover-content {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  top: 50%;
+  margin-top: -12px;
+  color: #fff;
+}
+#portfolio * {
+  z-index: 2;
+}
+
+@media (min-width: 767px) {
+section#download.content-section.text-center{
+  padding-top: 200px;
+}
+}
+@media (max-width: 767px) {
+  ul.list-inline.banner-social-buttons {
+  display: grid;
+  margin-bottom: 20px;
+  padding: 0;
+}
+}
+
+@media (max-width: 767px) {
+  .portfolio-item {
+  padding-left: 80px;
+}
+}
+
+
+
+
