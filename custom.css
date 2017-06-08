@@ -15,10 +15,11 @@ header#bootover.intro {
 
 section#about.container.content-section.text-center{
   padding-top: 150px;
+  padding-bottom: 100px;
 }
 
 h2.section-heading {
-  margin-top: 100px;
+  margin-top: 75px;
 }
 
 div.download-section {
@@ -66,6 +67,9 @@ div.portfolio-hover-content {
 }
 #portfolio * {
   z-index: 2;
+}
+#contact {
+  margin-bottom: 100px;
 }
 
 @media (min-width: 767px) {
