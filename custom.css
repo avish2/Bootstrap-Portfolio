@@ -93,10 +93,10 @@ section#download.content-section.text-center{
 }
 @media (max-width: 767px) {
   ul.list-inline.banner-social-buttons {
-  display: grid;
+/*  display: grid;*/
   margin-bottom: 20px;
   padding: 0;
-}
+  }
 }
 
 @media (max-width: 767px) {
@@ -111,5 +111,14 @@ section#download.content-section.text-center{
     padding-left: 35px;
   }
 }
-
-
+@media (max-width: 767px) {
+  ul.banner-social-buttons li {
+  margin:12px;
+  display: inline-grid;
+  }
+}
+@media (max-width: 767px) {
+  ul.list-inline.banner-social-buttons {
+/*    display: block;*/
+  }
+}
